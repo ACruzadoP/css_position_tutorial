@@ -4,3 +4,45 @@
     box-sizing: border-box;
 }
 
+h1{
+    position: static;
+}
+
+.box{
+    width: 500px;
+    height: 1500px;
+    border: 5px solid black;
+    margin: 20px auto;
+    position: relative;
+}
+
+.item1,.item2, .item3, .item4{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.item1{
+    background-color: cornflowerblue;
+    position: relative;
+    left: 20px;
+}
+
+.item2{
+    background-color: darkolivegreen;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.item3{
+    background-color: lightsalmon;
+    position: fixed;
+    left: 50px;
+}
+
+.item4{
+    background-color: slategrey;
+    position: sticky;
+    top: 0;
+}
